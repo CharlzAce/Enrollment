@@ -1,0 +1,32 @@
+.gradient-custom-2 {
+    background: rgb(0,168,255);
+    background: linear-gradient(90deg, rgba(0,168,255,1) 0%, rgba(118,255,241,1) 50%, rgba(0,254,55,1) 100%);
+}
+
+.logIn-Bg {
+    background-image: url('bg.png');
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn {
+    color: black;
+    margin-top: 15px;
+}
+
+    .btn:hover {
+        color: white;
+    }
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}

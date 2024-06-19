@@ -1,0 +1,161 @@
+.gradientBg {
+    background: rgb(187,187,187);
+    background: linear-gradient(90deg, rgba(187,187,187,1) 0%, rgba(171,171,171,1) 33%, rgba(0,0,0,1) 100%);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.parentBox {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.childBox1 {
+    height: 760px;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url("bg.png");
+    background-size: cover;
+}
+
+.childBox2 {
+    height: 760px;
+    background-color: #c7fcd2;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.divCenter {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.loginText {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: black;
+    font-family: Tahoma;
+    font-size: 48px;
+}
+
+.adminText {
+    margin-top: 280px;
+    color: black;
+    font-family: Tahoma;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btnclck {
+    background-color: #0066FF;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+}
+
+.button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.lnkclck {
+    color: blue;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lnkclck:hover {
+    color: #04AA6D;
+}
+
+.loginInput {
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 3px solid grey;
+    background-color: transparent;
+    padding-top: 40px;
+}
+
+.loginInput:active,
+.loginInput:focus,
+.loginInput:hover {
+	outline: none;
+	border-bottom-color: green;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: black !important;
+}
+
+@media (max-width: 767.98px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .childBox1 {
+        height: 300px;
+    }
+
+    .childBox2 {
+        height: 500px;
+    }
+
+    .loginText {
+        margin-top: 50px;
+    }
+    
+    .adminText {
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    
+    .btnclck {
+        width: 300px;
+        height: 50px;
+    }
+ }
+
+ @media (max-width: 991.98px) {
+    .childBox1 {
+        height: 500px;
+    }
+
+    .childBox2 {
+        height: 500px;
+    }
+
+    .loginText {
+        margin-top: 50px;
+    }
+    
+    .adminText {
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    
+    .btnclck {
+        width: 200px;
+        height: 50px;
+    }
+
+  }
